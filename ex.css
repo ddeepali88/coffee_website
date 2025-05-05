@@ -1,0 +1,67 @@
+body{
+            color:white;
+            background-color:maroon;}
+a{color:white;
+    text-decoration: none;
+    padding:15px;
+    font-size: 30px;}
+p{
+    font-family:Arial; }
+a:hover{
+        color:goldenrod;
+    }
+.heading
+{
+    text-align: center;
+    font-size:30pt;
+    text-transform: uppercase;
+    
+   
+    
+}
+.heading span
+{
+    color:orange;
+   
+}
+.btn{
+    margin-top:1rem;display: inline-block;
+    padding:0.9rem 3rem;
+    font-size:1.7rem;
+    color:#fff;
+    background:crimson;
+    cursor: pointer;
+    border-radius: 1.3rem;
+}
+.btn:hover{background:lightcoral;}
+.menu .box-container
+{
+ display: flex;
+ height: auto; 
+ column-gap:10px;
+
+}
+.menu .box-container .box{
+    padding:2rem;text-align: center;border:0.1rem solid white;
+    border-radius: 1rem;
+}
+.menu .box-container .box img{
+    height:10rem;
+    width:10rem;
+}
+.menu .box-container .box h3{
+    color:#fff;font-size:2rem;padding:1rem 0;
+}
+.menu .box-container .box .price{
+    color:#fff;font-size:2.5rem;padding:0.5rem 0;
+}
+.menu .box-container .box .price span{
+    color:#ccc;font-size:1.5rem;text-decoration: line-through;
+}
+.menu .box-container .box:hover>*{
+    color:black;
+}
+*{box-sizing: border-box;outline: none;border: none;text-decoration: none;
+text-transform: capitalize;}
+
+
